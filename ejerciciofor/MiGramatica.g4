@@ -13,6 +13,7 @@ forStmt
     : 'for' '(' inicializacion ';' condicion ';' actualizacion ')' (bloque | sentencia) # ForLoop
     ;
 
+
 bloque
     : '{' (sentencia ';')* '}'
     | sentencia

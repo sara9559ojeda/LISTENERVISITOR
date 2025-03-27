@@ -23,6 +23,7 @@ def test_visitor(input_code):
     print("\n✅ Prueba finalizada.")
 
 if __name__ == "__main__":
-    test_code = "x = 0; for (i = 0; i < 3; i = i + 1) { x = x + 2; };"
+    test_code = "z = 0; for (i = 0; i < 3; i = i + 1) { z = z + 2; };"
     test_visitor(test_code)
+
 
